@@ -6,7 +6,7 @@
  * Return: 0 on success, -1 on error
  */
 
-int read_employee(void)
+int read_employees(void)
 {
 FILE *file;
 Employee emp;
@@ -39,3 +39,4 @@ if (read_employees() == -1)
 return (-1);
 }
 return (0);
+}

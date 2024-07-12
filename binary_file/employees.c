@@ -45,13 +45,12 @@ printf("age: ");
 scanf("%d", &emp.age);
 printf("salary: ");
 scanf("%d", &emp.sal);
-create_employee(emp);
 
 if (create_employee(emp) == -1)
 {
 return (-1);
 }
 }
-printf("Employees created and saved!");
+printf("Employees created and saved!\n");
 return (0);
 }
